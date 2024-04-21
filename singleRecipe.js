@@ -28,7 +28,7 @@ async function buildApp() {
     const editBtn = document.createElement("a");
 
     recipeTitle.textContent = recipe.title;
-    recipeTitle.classList.add("text-3xl");
+    recipeTitle.classList.add("text-green-700", "text-3xl");
 
     recipeIngHeader.textContent = "Bahan-bahan:";
     recipeIngHeader.classList.add("text-md","my-4");
