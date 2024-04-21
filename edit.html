@@ -6,13 +6,16 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-   <div class="grid grid-rows-3">
-    <form id="form">
-     <input class="border-2 border-slate-100"id="name" name="'name"/>
-     <textarea id="ingredients"></textarea>
-     <textarea id="steps"></textarea>
-     <button>Update</button>
+<body class="m-4 bg-[url(https://static.vecteezy.com/system/resources/previews/023/670/051/non_2x/batik-mega-mendung-cirebon-indonesian-motif-batik-is-a-technique-of-wax-resist-dyeing-applied-to-whole-cloth-geometric-ethnic-pattern-traditional-design-for-background-or-fabric-vector.jpg)]">
+   <div class="m-8 grid">
+    <form id="form" class="grid grid-rows-6 space-x-4 space-y-4">
+     <input class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" id="name" name="'name"/>
+     <input class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" name="category"id="category"/>
+     <input class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" name ="image" id="image"/>
+     <textarea class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" id="description"></textarea>
+     <textarea class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" id="ingredients"></textarea>
+     <textarea class="border-2 border-slate-100 bg-yellow-100 rounded-lg p-2" id="steps"></textarea>
+     <button class="justify-center w-40 border-2 bg-green-200 border-green-700 text-green-700 rounded-lg">Update</button>
      <script src="edit.js"></script>
     </form>
    </div>
